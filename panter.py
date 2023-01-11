@@ -26,3 +26,5 @@ Product = st.sidebar.multiselect(
     options=df["product"].unique(),
     default=df["product"].unique()
 )
+
+print(Product)
